@@ -12,7 +12,11 @@
 
 #include <clibs/files.h>
 
+#include "version.h"
+
 int main (int argc, char **argv) {
+
+	magic_player_version_print_full ();
 
 	if (argc > 1) {
 		const char *dirname = argv[1];
